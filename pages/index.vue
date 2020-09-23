@@ -4,77 +4,11 @@
     <navbar></navbar>
     </client-only>
     <section id="landingPhoto"></section>
-    <p>pfdk</p>
-    <p>pfdk</p>
-    <p>pfdk</p>
-    <p>pfdk</p>
-    <p>pfdk</p>
-    <p>pfdk</p>
-    <p>pfdk</p>
-    <p>pfdk</p>
-    <p>pfdk</p>
-    <p>pfdk</p>
-    <p>pfdk</p>
-    <p>pfdk</p>
-    <p>pfdk</p>
-    <p>pfdk</p>
-    <p>pfdk</p>
-    <p>pfdk</p>
-    <p>pfdk</p>
-    <p>pfdk</p>
-    <p>pfdk</p>
-    <p>pfdk</p>
-    <p>pfdk</p>
-    <p>pfdk</p>
-    <p>pfdk</p>
-    <p>pfdk</p>
-    <p>pfdk</p>
-    <p>pfdk</p>
-    <p>pfdk</p>
-    <p>pfdk</p>
-    <p>pfdk</p>
-    <p>pfdk</p>
-    <p>pfdk</p>
-    <p>pfdk</p>
-    <p>pfdk</p>
-    <p>pfdk</p>
-    <p>pfdk</p>
-    <p>pfdk</p>
-    <p>pfdk</p>
-    <p>pfdk</p>
-    <p>pfdk</p>
-    <p>pfdk</p>
-    <p>pfdk</p>
- 
     <div id="titi" style="width:100%;height:60rem;background-color: red">
 
     </div>
      <div style="width:100%;height:60rem;background-color: blue">
-
-    </div>
-    <p>pfdk</p>
-    <p>pfdk</p>
-    <p>pfdk</p>
-    <p>pfdk</p>
-    <p>pfdk</p>
-    <p>pfdk</p>
-    <p>pfdk</p>
-    <p>pfdk</p>
-    <p>pfdk</p>
-    <p>pfdk</p>
-    <p>pfdk</p>
-    <p>pfdk</p>
-    <p>pfdk</p>
-    <p>pfdk</p>
-    <p>pfdk</p>
-    <p>pfdk</p>
-    <p>pfdk</p>
-    <p>pfdk</p>
-    <p>pfdk</p>
-    <p>pfdk</p>
-    <p>pfdk</p>
-    <p>pfdk</p>
-    <p>pfdk</p>
+  </div>
   </div>
 </template>
 
@@ -115,7 +49,7 @@ a {
 
 #landingPhoto {
   position: absolute;
-  z-index: -1;
+  /* z-index: -1; */
   background-image: url("~assets/images/namibia.jpg");
   height: 100%;
   width: 100%;

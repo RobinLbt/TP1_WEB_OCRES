@@ -59,11 +59,13 @@ export default {
         scrollTrigger: {
           trigger: "#landingPhoto",
           markers: true,
-          start: "=+200",
-          end: "center top",
-          toggleActions: "restart pause reverse pause",
+          scrub: 0.5,
+          start: "=+500",
+          toggleActions: "restart none none reverse",
         },
-        backgroundColor: "#FFFFFF",
+        backgroundColor: "#000000",
+        duration: 0.2,
+        ease: 'true'
         // triggerActions: "restart pause reverse pause"
       });
     }
@@ -90,12 +92,14 @@ export default {
   position: fixed;
   padding: 0;
   margin: 0;
+  z-index: 2;
 }
 
 #gauche {
   display: flex;
   justify-content: flex-start;
   flex: 1;
+  color: #ffffff;
 }
 
 #droite {
@@ -108,7 +112,7 @@ export default {
 }
 
 .link {
-  color: #707070;
+  color: #ffffff;
   padding-left: 0.8rem;
   padding-right: 0.8rem;
   padding-top: 0.8rem;
