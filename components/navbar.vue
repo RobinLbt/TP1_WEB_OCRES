@@ -2,8 +2,7 @@
   <div id="navbar">
     <section id="gauche" v-if="!isMobile">
       <transition appear name="scalein2" mode="in-out">
-        <!-- <img src="@/assets/logo.svg" id="logo" /> -->
-        <p>LOGO ICI</p>
+        <p style="padding-left:4rem">LOGO ICI</p>
       </transition>
     </section>
 
@@ -23,8 +22,8 @@
         class="link"
       >Mes travaux</router-link>
 
-      <img src="~/assets/icons/linkedin.svg" />
-      <img src="~/assets/icons/mail.svg" />
+      <img width="40rem" class="iconButton" src="~/assets/icons/linkedin.svg"/>
+      <img width="40rem" class="iconButton" src="~/assets/icons/mail.svg"/>
     </section>
   </div>
 </template>
@@ -52,9 +51,11 @@ export default {
         this.isMobile = false;
       }
     },
-  },
+  }, 
   mounted() {
     if (process.client) {
+      var tl = gsap.timeline();
+
       gsap.to("#navbar", {
         scrollTrigger: {
           trigger: "#landingPhoto",
@@ -66,7 +67,6 @@ export default {
         backgroundColor: "#000000",
         duration: 0.2,
         ease: 'true'
-        // triggerActions: "restart pause reverse pause"
       });
     }
   },
@@ -139,6 +139,10 @@ export default {
 button {
   display: none;
   width: 100%;
+}
+
+.iconButton:hover{
+  cursor: pointer;
 }
 
 @media only screen and (max-width: 800px) {
